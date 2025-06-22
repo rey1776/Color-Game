@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #C1BDDB;
 }
 
 h1 {
@@ -82,12 +83,16 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-content: space-between;
+  background-color: #A2C7E5;
 }
 
 .scorecard{
-  background-color: lightcoral;
+  background-color: #A2C7E5;
+  padding: 15px;
+  border: 2px solid #C1BDDB;
+  border-color: #C1BDDB;
 }
 
 .footer{
-  background-color: lightblue;
+  background-color: #A2C7E5;
 }

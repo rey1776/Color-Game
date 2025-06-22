@@ -3,7 +3,6 @@ import MyTable from "./MyTable";
 import Typography from '@mui/material/Typography';
 
 
-
 function Scorecard({scorecard}) {
 //   const [scorecard, setScorecard] = useState([true, false, true, true]);
 

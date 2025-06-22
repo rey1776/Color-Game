@@ -6,6 +6,7 @@ import './App.css'
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import MuiNavbar from './assets/components/MuiNavbar';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
   
     return (
       <div>
+        <MuiNavbar />
         <Typography color='primary' align="center" variant="h1" sx={{ mb: 2 }}>
           Color Game
         </Typography>

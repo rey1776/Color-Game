@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import CancelIcon from '@mui/icons-material/Cancel';
+import ClearIcon from '@mui/icons-material/Clear';
 
 function MyComponent() {
   return (
@@ -30,7 +33,7 @@ function MyTable(props) {
           {props.answer.map((element, index) => (
             <tr key={index}>
               <td>{"Q. " + (index + 1)}</td>
-              <td>{element ? MyComponent() : RedX()}</td>
+              <td>{element ? <CheckCircleIcon color={'success'}/> : <CancelIcon sx={{ color: 'red' }}/>}</td>
             </tr>
           ))}
         </tbody>
